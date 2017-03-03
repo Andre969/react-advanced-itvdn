@@ -1,13 +1,13 @@
 {
-  "name": "webpack2-test",
+  "name": "setup-env",
   "version": "1.0.0",
-  "description": "",
+  "description": "setup env for React Advanced course",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack-dev-server --inline"
+    "itvdn": "webpack-dev-server --progress --colors"
   },
-  "author": "Vlad Feninets",
+  "author": "Vlad Feninets <v.feninets@gmail.com>",
   "license": "ISC",
   "devDependencies": {
     "babel-core": "^6.22.1",
@@ -28,13 +28,15 @@
     "sass-loader": "^4.1.1",
     "style-loader": "^0.13.1",
     "url-loader": "^0.5.7",
-    "webpack": "^2.2.0",
-    "webpack-dev-server": "^2.2.0"
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.3.0"
   },
   "dependencies": {
+    "faker": "^3.1.0",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
     "react-redux": "^5.0.2",
-    "redux": "^3.6.0"
+    "redux": "^3.6.0",
+    "redux-thunk": "^2.2.0"
   }
 }
